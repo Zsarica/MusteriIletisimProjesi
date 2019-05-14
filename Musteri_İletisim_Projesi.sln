@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusteriIletisim.WinUI", "MusteriIletisim.WinUI\MusteriIletisim.WinUI.csproj", "{A07017E2-8FFB-4231-84A4-93AC0A347CE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusteriIletisim.BLL", "MusteriIletisim.BLL\MusteriIletisim.BLL.csproj", "{456160B3-A7AD-494A-BBC6-1DE28CA8227C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusteriIletisim.DTO", "MusteriIletisim.DTO\MusteriIletisim.DTO.csproj", "{7FCC3DEE-BF90-4DAC-9B7C-CCC14705EEC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusteriIletisim.DAL", "MusteriIletisim.DAL\MusteriIletisim.DAL.csproj", "{3AC91310-15F0-4948-98B9-A7A86D1BB6A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{109B0274-8FA5-4099-8E28-DFC39C88C21B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{578DBABF-A422-414A-917D-2AA0121F2205}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A07017E2-8FFB-4231-84A4-93AC0A347CE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A07017E2-8FFB-4231-84A4-93AC0A347CE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A07017E2-8FFB-4231-84A4-93AC0A347CE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A07017E2-8FFB-4231-84A4-93AC0A347CE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{456160B3-A7AD-494A-BBC6-1DE28CA8227C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{456160B3-A7AD-494A-BBC6-1DE28CA8227C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{456160B3-A7AD-494A-BBC6-1DE28CA8227C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{456160B3-A7AD-494A-BBC6-1DE28CA8227C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FCC3DEE-BF90-4DAC-9B7C-CCC14705EEC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FCC3DEE-BF90-4DAC-9B7C-CCC14705EEC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FCC3DEE-BF90-4DAC-9B7C-CCC14705EEC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FCC3DEE-BF90-4DAC-9B7C-CCC14705EEC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AC91310-15F0-4948-98B9-A7A86D1BB6A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AC91310-15F0-4948-98B9-A7A86D1BB6A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AC91310-15F0-4948-98B9-A7A86D1BB6A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AC91310-15F0-4948-98B9-A7A86D1BB6A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{109B0274-8FA5-4099-8E28-DFC39C88C21B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{109B0274-8FA5-4099-8E28-DFC39C88C21B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{109B0274-8FA5-4099-8E28-DFC39C88C21B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{109B0274-8FA5-4099-8E28-DFC39C88C21B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{578DBABF-A422-414A-917D-2AA0121F2205}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{578DBABF-A422-414A-917D-2AA0121F2205}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{578DBABF-A422-414A-917D-2AA0121F2205}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{578DBABF-A422-414A-917D-2AA0121F2205}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CCF0C4A4-F397-4425-9DBB-F00EA158A103}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dev.azure.com/Rookies-304
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = MusteriIletisim.WinUI\\MusteriIletisim.WinUI.csproj
+		SccProjectName1 = MusteriIletisim.WinUI
+		SccLocalPath1 = MusteriIletisim.WinUI
+		SccProjectUniqueName2 = MusteriIletisim.BLL\\MusteriIletisim.BLL.csproj
+		SccProjectName2 = MusteriIletisim.BLL
+		SccLocalPath2 = MusteriIletisim.BLL
+		SccProjectUniqueName3 = MusteriIletisim.DTO\\MusteriIletisim.DTO.csproj
+		SccProjectName3 = MusteriIletisim.DTO
+		SccLocalPath3 = MusteriIletisim.DTO
+		SccProjectUniqueName4 = MusteriIletisim.DAL\\MusteriIletisim.DAL.csproj
+		SccProjectName4 = MusteriIletisim.DAL
+		SccLocalPath4 = MusteriIletisim.DAL
+		SccProjectUniqueName5 = Core\\Core.csproj
+		SccProjectName5 = Core
+		SccLocalPath5 = Core
+		SccProjectUniqueName6 = Common\\Common.csproj
+		SccProjectName6 = Common
+		SccLocalPath6 = Common
+	EndGlobalSection
+EndGlobal

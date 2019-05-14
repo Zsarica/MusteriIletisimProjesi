@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="df528888bf5c4056bdf2f499d3842acd" Name="Diagram1">
+        <EntityTypeShape EntityType="MusteriBilgileriDbModel.Iletisim" Width="1.5" PointX="1.5" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MusteriBilgileriDbModel.IlgiAlanlari" Width="1.5" PointX="0.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MusteriBilgileriDbModel.ilceler" Width="1.5" PointX="1.5" PointY="14.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MusteriBilgileriDbModel.iller" Width="1.5" PointX="1.5" PointY="17.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MusteriBilgileriDbModel.Kisi" Width="1.5" PointX="0.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MusteriBilgileriDbModel.KisiIlgi" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="MusteriBilgileriDbModel.sysdiagram" Width="1.5" PointX="2.75" PointY="4.75" IsExpanded="true" />
+        <AssociationConnector Association="MusteriBilgileriDbModel.FK_Iletisim_ilceler" ManuallyRouted="false" />
+        <AssociationConnector Association="MusteriBilgileriDbModel.FK_Iletisim_iller" ManuallyRouted="false" />
+        <AssociationConnector Association="MusteriBilgileriDbModel.FK_Kisi_Iletisim" ManuallyRouted="false" />
+        <AssociationConnector Association="MusteriBilgileriDbModel.FK_IlgiAlanlari_IlgiAlanlari" ManuallyRouted="false" />
+        <AssociationConnector Association="MusteriBilgileriDbModel.FK_KisiIlgi_IlgiAlanlari" ManuallyRouted="false" />
+        <AssociationConnector Association="MusteriBilgileriDbModel.FK_ilceler_iller" ManuallyRouted="false" />
+        <AssociationConnector Association="MusteriBilgileriDbModel.FK_KisiIlgi_Kisi" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
